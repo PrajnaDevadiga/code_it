@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style> 
+  
+@media only screen and (min-width: 772px) {
+  .flex-container {
+    display: flex;
+    flex-wrap:row-wrap;
+    justify-content: space-between;
+  }
+
+  div {
+    width: 45%;
+  }
+
+  img {
+    max-height: 0vh;
+  }
+}
+@media only screen and (min-width: 998px) {
+  .container {
+    display: flex;
+    flex-wrap: row-wrap;
+    justify-content: space-between;
+  }
+
+  div {
+    width: 30%;
+  }
+}
+</style>
+ 
+  <title>Colors</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1 id="top">Colors!</h1>
+  </header>
+
+  <main>
+    <h2>Basic Media Queries</h2>
+    <p>In this assignment you will add two media queries to the css file.</p>
+    <ul>
+      <li>The first media query should trigger at 772px and change the layout of the divs to be 45% of the viewport width. The images should have a maximum height of 30% of the viewport height.</li>
+
+      <li>The second media query should trigger at 998px and change the layout of the divs to be 30% of the viewport width.</li>
+    </ul>
+    <p>You will need to make additional changes to ensure that the divs appear next to each other and that the images are contained within the divs.  Some of these properties include display, width and max-height.</p>
+
+    <div class="flex-container">
+      <img src="images/Red.jpeg" alt="Red" width="200">
+      <p class = "label">Red</p>
+    </div>
+    <div class="flex-container" >
+      <img src="images/Orange.png" alt="Orange" width="200">
+      <p class = "label">Orange</p>
+    </div>
+    <div class="flex-container" >
+      <img src="images/Yellow.png" alt="Yellow" width="200">
+      <p class = "label">Yellow</p>
+    </div>
+    <div class="flex-container">
+      <img src="images/Green.png" alt="Green" width="200">
+      <p class = "label">Green</p>
+    </div>
+    <div class="flex-container">
+      <img src="images/Blue.png" alt="Blue" width="200">
+      <p class = "label">Blue</p>
+    </div>
+    <div class="flex-container" >
+      <img src="images/Indigo.jpeg" alt="Indigo" width="200">
+      <p class = "label">Indigo</p>
+    </div>
+    <div class="flex-container" >
+      <img src="images/Purple.png" alt="Purple" width="200">
+      <p class = "label">Purple</p>
+    </div >
+    <div class="flex-container" >
+      <img src="images/Pink.jpeg" alt="Pink" width="200">
+      <p class = "label">Pink</p>
+    </div class="flex-container">
+    <div class="flex-container">
+      <img src="images/White.png" alt="White" width="200">
+      <p class = "label">White</p>
+    </div>
+    </div class="flex-container">
+  </main>
+
+  <footer>
+    <a href="#top">Jump to the Top</a>
+  </footer>
+</body>
+
+</html>
