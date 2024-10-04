@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Project</title>
+  <style>
+    html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #dedede;
+    padding: 5px;
+    margin: 15px;
+    font-size: 25px;
+    font-family:Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family:Arial, sans-serif;
+    font-size: 1.95em;
+}
+
+h2{
+    text-align:center;
+  }
+
+li{
+    margin-top: 20px;
+}
+
+img{
+    border: 5px solid blue;
+    width: 100%;
+    
+  }
+
+.label{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.grid{
+    display:block;
+    width:100%;
+    margin:10px;
+    height:50%;
+    
+
+}
+@media (min-width:772px){
+
+   
+
+    
+    
+  .grid figure {
+    border-radius: 50%;
+    overflow: hidden;
+    width:40%;
+    display:inline-block;
+    
+  }
+  .grid figure:last-child {
+    width: 100%; 
+
+ 
+}
+}
+@media (min-width:992px){
+  .grid figure{
+    border-radius: 0%;
+  }
+  .grid figure:nth-child(3){
+    width:100%;
+  }
+  .grid figure:nth-child(6){
+    width:100%;
+  }
+  .grid figure:nth-child(9){
+    width:100%;
+  }
+
+}
+@media (prefers-reduced-motion: reduce) {
+
+  * {
+    scroll-behavior: auto !important;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .grid figure {
+    background-color: #181818; 
+    color: #f5f5f5; 
+    border-color: black; 
+  }
+}
+
+</style>
+</head>
+
+<body>
+  <header>
+    <h1 id="top">Wildlife</h1>
+  </header>
+
+  <main>
+    <p>Wildlife refers to undomesticated animal species. It includes all organisms that grow or live wild in an area without being introduced by humans.
+	Wildlife is integral to the world’s ecosystems, providing balance and stability to nature’s processes. </p>
+
+    <p>The goal of wildlife conservation is to ensure the survival of these species and to educate people on living sustainably with other species.
+	Valuing and conserving forests and wildlife enhance the relationship between humans and nature</p>
+    
+    
+    <div class = "grid">
+        <figure >
+        <img src="images\Image1.jpeg"" alt="Red Panda" width="200" >
+        <figcaption>Red Panda</figcaption>
+        </figure>
+        <figure>
+        <img src="images\image2.jpg" alt="Humming Bird with bees" width="200">
+        <figcaption>Humming Bird with bees</figcaption>
+        </figure>
+        <figure >
+        <img src="images\image3.jpeg" alt="Giraffe" width="200">
+        <figcaption>Giraffe</figcaption>
+        </figure>
+        <figure >
+        <img src="images\image4.jpeg" alt="2 giraffe" width="200" >
+        <figcaption>2 giraffe</figcaption>
+        </figure>
+        <figure >
+        <img src="images\image5.jpg" alt="Tiger" width="200" class = ".figure" >
+        <figcaption>Tiger</figcaption>
+        </figure>
+        <figure >
+        <img src="images\image6.jpeg" alt="Cheetah" width="200" >
+        <figcaption>Cheetah</figcaption>
+        </figure>
+        <figure>
+        <img src="images\image7.jpg" alt="Purple" width="200">
+        <figcaption>Purple</figcaption>
+        </figure>
+        <figure>
+        <img src="images\image8.jpg" alt="Deer" width="200">
+        <figcaption>Deer</figcaption>
+        </figure>
+        <figure>
+        <img src="images\Image9.jpeg" alt="Yellow bird" width="200">
+        <figcaption>Yellow bird</figcaption>
+        </figure>
+    </div>
+  </main>
+
+  <footer>
+    <a href="#top">Jump to the Top</a>
+  </footer>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
